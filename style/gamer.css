@@ -365,6 +365,30 @@ nav{
     height: 80%;
 }
 
+.Instantly-container{
+    flex-direction: column;
+    justify-content: center;
+}
+.Instantly-big-img{
+
+    width: 270px;
+    height:350px ;
+}
+.small-imgs{
+    width: 160px; 
+    height:170px ;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.Instantly-img{
+    margin-left: 100px;
+}
+
+/* .Instantly-text{
+    width:00px;
+} */
+
 
 }
 
