@@ -49,6 +49,10 @@ nav{
     padding-left:20px ;
     
 }
+.fa-youtube{ 
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .flowinng-nav li{
     list-style: none;
     padding-right: 5px;
@@ -216,6 +220,8 @@ nav{
     text-align: center;
     width: 295px;
     height: 80px;
+    align-items: center;
+
 }
 .game-items:hover{
     border: 2px solid #FF42A5;
@@ -226,13 +232,13 @@ nav{
 }
 .game-p{
     display: inline;
-    text-align: center;
+    /* align-items: center; */
 
 }
 
 /*  footer */
 .foter{
-    height: 636px;
+    height: 800px;
     background: #0B0223;
 }
 .footer-img{
@@ -274,18 +280,20 @@ nav{
 }
 /* last-footer-ul */
 .last-footer-ul ul{
-    display: flex;
+    text-align: center;
+    grid-template-columns:repeat(4,1fr);
     color: rgba(255, 255, 255, 0.60);
-    justify-content: center;
 
 }
 .last-footer-ul li{
     list-style: none;
-    font-family: Work Sans;
     font-size: 16px;
     font-weight: 500;
-    padding-right: 60px;
-    padding-top: 55px;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 60px;
+
 }
 .last-footer-ul p{
     color: rgba(255, 255, 255, 0.60);
@@ -297,9 +305,22 @@ nav{
 /* footer-icon */
 .footer-icon{
     font-size: 2em;
-    margin-left: 22em;
-    justify-content: space-between;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom:40px ;
+ }
+.fa-brands{
+    font-size:25px;
+    /* justify-content: center; */
+    gap: 10px;
+   
+    /* justify-content: center; */
+    
 }
+
+
 .none{
     display: none;
 }
@@ -364,11 +385,16 @@ nav{
     width: 80%;
     height: 80%;
 }
-
+/* .card img:hover{
+    cursor: pointer;
+    border:5px solid #F948B2;
+    border-radius: 15px;
+} */
 .Instantly-container{
     margin-right: 0px;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 0;
     
 }
 .Instantly-big-img{
@@ -388,6 +414,7 @@ nav{
 }
 .Instantly-big-img{
     padding-left: 0;
+    margin-bottom: 0;
     /* padding-right: ; */
 }
 .Instantly-text{
@@ -402,7 +429,57 @@ nav{
     padding-left: 65px;
    
 }
+.small-gaming-container{
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 0%;
+    width: 400px;
+}
+.game-items{
+    width: 70%;
+    height: 50%;
+    text-align: center;
 
+}
+
+.game-items img{
+    width: 40px;
+
+}
+.game-p{
+    
+    font-size: small;
+}
+.footer-img{
+    padding-top: 10px;
+}
+.footer-list-items ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-list-items li{
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom:0;
+   width: 0 auto;
+}
+.fa-brands{
+    padding-left: 50px;
+    /* padding-bottom: 50px; */
+ 
+}
+.flowinng-nav >.fa-youtube, .fa-tiktok{
+    padding-left:5px ;
+}
+.last-footer-ul li{
+    padding-right: 50px;
+
+}
 
 
 }
