@@ -366,8 +366,10 @@ nav{
 }
 
 .Instantly-container{
+    margin-right: 0px;
     flex-direction: column;
     justify-content: center;
+    
 }
 .Instantly-big-img{
 
@@ -379,15 +381,28 @@ nav{
     height:170px ;
     position: absolute;
     top: 150px;
-    left: 40px;
+    left: -60px;
 }
 .Instantly-img{
     margin-left: 100px;
 }
+.Instantly-big-img{
+    padding-left: 0;
+    /* padding-right: ; */
+}
+.Instantly-text{
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 80%;
+    text-align: center;
+    margin-left: 200px;
+}
+.Instantly-text p{
+    text-align: center;
+    padding-left: 65px;
+   
+}
 
-/* .Instantly-text{
-    width:00px;
-} */
 
 
 }
